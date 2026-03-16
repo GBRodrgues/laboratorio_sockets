@@ -1,0 +1,11 @@
+Teste de rota
+Data: Mon Mar 16 19:25:46 -03 2026
+Alvo: ifmg.edu.br
+Comando: tracepath
+
+ 1?: [LOCALHOST]                      pmtu 1500
+ 1:  _gateway                                              4.794ms 
+ 1:  _gateway                                              2.450ms 
+ 2:  200.18.128.1                                          7.402ms 
+ 3:  no reply
+ 4:  

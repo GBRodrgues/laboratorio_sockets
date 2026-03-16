@@ -1,0 +1,5 @@
+Resumo dos testes
+Data: Mon Mar 16 19:22:40 -03 2026
+Ferramenta: tracepath
+
+[OK] 1.1.1.1 -> /media/gabriel/Novo volume/IFMG/redes/resultados/20260316_192240_1.1.1.1.txt

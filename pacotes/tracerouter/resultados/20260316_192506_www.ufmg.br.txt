@@ -1,0 +1,13 @@
+Teste de rota
+Data: Mon Mar 16 19:26:06 -03 2026
+Alvo: www.ufmg.br
+Comando: tracepath
+
+ 1?: [LOCALHOST]                      pmtu 1500
+ 1:  _gateway                                              2.671ms 
+ 1:  _gateway                                              5.182ms 
+ 2:  200.18.128.1                                          2.592ms 
+ 3:  no reply
+ 4:  bmg2-dmg2.pop-mg.rnp.br                               5.656ms 
+ 5:  cmg2-bmg2-65031.bkb.rnp.br                            7.428ms 
+ 6:  

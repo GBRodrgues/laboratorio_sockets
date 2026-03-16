@@ -1,0 +1,6 @@
+Resumo dos testes
+Data: Mon Mar 16 19:23:55 -03 2026
+Ferramenta: tracepath
+Timeout por alvo: 5s
+
+[TEMPO ESGOTADO] 1.1.1.1 -> /media/gabriel/Novo volume/IFMG/redes/resultados/20260316_192355_1.1.1.1.txt

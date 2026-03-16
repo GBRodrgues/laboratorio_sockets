@@ -1,0 +1,13 @@
+Teste de rota
+Data: Mon Mar 16 19:25:26 -03 2026
+Alvo: 8.8.8.8
+Comando: tracepath
+
+ 1?: [LOCALHOST]                      pmtu 1500
+ 1:  _gateway                                              8.315ms 
+ 1:  _gateway                                              2.817ms 
+ 2:  200.18.128.1                                          6.803ms 
+ 3:  ifmg-ourobranco-gw.pop-mg.rnp.br                    118.736ms 
+ 4:  bmg2-dmg2.pop-mg.rnp.br                              59.280ms 
+ 5:  cmg2-bmg2-65031.bkb.rnp.br                            9.717ms 
+ 6:  

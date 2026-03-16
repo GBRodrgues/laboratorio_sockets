@@ -1,0 +1,13 @@
+Teste de rota
+Data: Mon Mar 16 19:23:55 -03 2026
+Alvo: 1.1.1.1
+Comando: tracepath
+
+ 1?: [LOCALHOST]                      pmtu 1500
+ 1:  _gateway                                              3.483ms 
+ 1:  _gateway                                              2.174ms 
+ 2:  200.18.128.1                                          2.578ms 
+ 3:  no reply
+ 4:  bmg2-dmg2.pop-mg.rnp.br                               5.355ms 
+ 5:  cmg2-bmg2-65031.bkb.rnp.br                            7.169ms 
+ 6:  
