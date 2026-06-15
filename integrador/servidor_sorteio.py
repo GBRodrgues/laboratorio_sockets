@@ -57,6 +57,11 @@ def atender_cliente(conexao, endereco):
             if texto.upper() == "/SAIR":
                 break
 
+            if texto.startswith("/"):
+                conexao.sendall(f"Comando desconhecido: {texto}. Comando válido: /SAIR\n".encode("utf-8"))
+                print(f"[{nome}] tentou usar comando desconhecido: {texto}")
+                continue
+
             try:
                 chute = int(texto)
                 if chute in numeros_sorteados:
@@ -66,8 +71,8 @@ def atender_cliente(conexao, endereco):
                 
                 print(f"[{nome}] chutou o número {chute}")
             except ValueError:
-                conexao.sendall("Por favor, envie um número inteiro válido.\n".encode("utf-8"))
-                print(f"[{nome}] enviou: {texto}")
+                conexao.sendall("Entrada inválida. Por favor, envie um número inteiro válido ou o comando /SAIR.\n".encode("utf-8"))
+                print(f"[{nome}] enviou entrada inválida: {texto}")
 
     finally:
         with lock:
